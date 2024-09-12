@@ -9,10 +9,10 @@ public class latianforeach {
 
         for (int num : numbers) {
             if (num % 3 == 0) {
-                continue;  // Lewati angka yang habis dibagi 3
+                continue;
             }
             if (num > 15) {
-                break;  // Berhenti setelah mencapai angka 15
+                break;
             }
             System.out.println(num);
         }
